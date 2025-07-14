@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <div className="space-y-8">
-      {/* Header */}
+  
       <div className="relative bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg border border-slate-200/50 dark:bg-slate-800/80 dark:border-slate-700/50 p-6  bg-gradient-to-b from-[#0f172a] to-[#1e293b]">
         <div className="flex items-center justify-center">
           <div>
@@ -54,12 +54,10 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Tabs */}
       <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg border border-slate-200/50 dark:bg-slate-800/80 dark:border-slate-700/50 p-6">
         <TabsComponents />
       </div>
 
-      {/* Form Section */}
       <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg border border-slate-200/50 dark:bg-slate-800/80 dark:border-slate-700/50 p-6">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-8">
           <div className="mb-4 lg:mb-0">
@@ -81,7 +79,6 @@ export default function Home() {
         </div>
 
         <form className="space-y-8" id="settings">
-          {/* Name Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-violet-100 dark:bg-violet-900/20 rounded-lg flex items-center justify-center">
@@ -111,7 +108,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Email Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900/20 rounded-lg flex items-center justify-center">
@@ -132,7 +128,6 @@ export default function Home() {
             </InputRoot>
           </div>
 
-          {/* Photo Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-green-100 dark:bg-green-900/20 rounded-lg flex items-center justify-center">
@@ -154,7 +149,6 @@ export default function Home() {
             </FileInput.Root>
           </div>
 
-          {/* Role Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-purple-100 dark:bg-purple-900/20 rounded-lg flex items-center justify-center">
@@ -173,7 +167,6 @@ export default function Home() {
             </InputRoot>
           </div>
 
-          {/* Country Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-orange-100 dark:bg-orange-900/20 rounded-lg flex items-center justify-center">
@@ -189,7 +182,6 @@ export default function Home() {
             </Select>
           </div>
 
-          {/* Timezone Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-indigo-100 dark:bg-indigo-900/20 rounded-lg flex items-center justify-center">
@@ -205,7 +197,6 @@ export default function Home() {
             </Select>
           </div>
 
-          {/* Bio Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-teal-100 dark:bg-teal-900/20 rounded-lg flex items-center justify-center">
@@ -226,7 +217,6 @@ export default function Home() {
             />
           </div>
 
-          {/* Portfolio Projects Section */}
           <div className="grid lg:grid-cols-form gap-6 items-start">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-pink-100 dark:bg-pink-900/20 rounded-lg flex items-center justify-center">
@@ -248,7 +238,6 @@ export default function Home() {
             </FileInput.Root>
           </div>
 
-          {/* Action Buttons */}
           <div className="flex items-center justify-end gap-3 pt-6 border-t border-slate-200 dark:border-slate-700">
             <Button variant="outline" className="px-8">
               Cancelar

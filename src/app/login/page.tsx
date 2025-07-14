@@ -40,7 +40,6 @@ export default function Page() {
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-violet-50 via-white to-violet-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex items-center justify-center">
       
-      {/* Framer Motion animação */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -61,7 +60,6 @@ export default function Page() {
             </div>
           )}
 
-          {/* Campo de e-mail */}
           <div className="space-y-2">
             <label htmlFor="email" className="block text-base font-semibold text-slate-700 dark:text-slate-300 mb-1">
               E-mail
@@ -83,7 +81,6 @@ export default function Page() {
             </div>
           </div>
 
-          {/* Campo de senha */}
           <div className="space-y-2">
             <label htmlFor="password" className="block text-base font-semibold text-slate-700 dark:text-slate-300 mb-1">
               Senha
@@ -113,7 +110,6 @@ export default function Page() {
             </div>
           </div>
 
-          {/* Botão de login */}
           <Button
             type="submit"
             disabled={isLoading}
@@ -129,7 +125,6 @@ export default function Page() {
             )}
           </Button>
 
-          {/* Link para cadastro */}
           <div className="text-center pt-2">
             <span className="text-base text-slate-600 dark:text-slate-400">
               Não tem uma conta?{' '}

@@ -52,7 +52,6 @@ export default function RegisterPage() {
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-violet-50 via-white to-violet-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex items-center justify-center">
       
-      {/* Animação com Framer Motion */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -73,7 +72,6 @@ export default function RegisterPage() {
             </div>
           )}
 
-          {/* Nome */}
           <div className="space-y-2">
             <label htmlFor="name" className="block text-base font-semibold text-slate-700 dark:text-slate-300 mb-1">
               Primeiro Nome 
@@ -95,7 +93,6 @@ export default function RegisterPage() {
             </div>
           </div>
 
-          {/* Email */}
           <div className="space-y-2">
             <label htmlFor="email" className="block text-base font-semibold text-slate-700 dark:text-slate-300 mb-1">
               E-mail
@@ -117,7 +114,6 @@ export default function RegisterPage() {
             </div>
           </div>
 
-          {/* Senha */}
           <div className="space-y-2">
             <label htmlFor="password" className="block text-base font-semibold text-slate-700 dark:text-slate-300 mb-1">
               Senha
@@ -147,7 +143,6 @@ export default function RegisterPage() {
             </div>
           </div>
 
-          {/* Confirmar senha */}
           <div className="space-y-2">
             <label htmlFor="confirmPassword" className="block text-base font-semibold text-slate-700 dark:text-slate-300 mb-1">
               Confirme a senha
@@ -177,7 +172,6 @@ export default function RegisterPage() {
             </div>
           </div>
 
-          {/* Botão de criar conta */}
           <Button
             type="submit"
             disabled={isLoading}
@@ -193,7 +187,6 @@ export default function RegisterPage() {
             )}
           </Button>
 
-          {/* Link para login */}
           <div className="text-center pt-2">
             <span className="text-base text-slate-600 dark:text-slate-400">
               Já tem uma conta?{' '}
