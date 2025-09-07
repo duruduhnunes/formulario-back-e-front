@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Formulário Back e Front
 
-## Getting Started
+Este projeto é uma aplicação web desenvolvida com [Next.js](https://nextjs.org), que integra tanto o frontend quanto o backend para gerenciamento de formulários. O objetivo é fornecer uma solução completa para criação, envio e processamento de formulários online, utilizando as melhores práticas do ecossistema React e Next.js.
 
-First, run the development server:
+## Funcionalidades
+
+- Interface moderna e responsiva para preenchimento de formulários.
+- Backend integrado para recebimento e armazenamento das respostas.
+- Estrutura pronta para autenticação e validação de dados.
+- Fácil customização e expansão para diferentes tipos de formulários.
+
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework React para aplicações web modernas.
+- **TypeScript**: Tipagem estática para maior segurança e produtividade.
+- **API Routes**: Para criação de endpoints backend dentro do próprio projeto.
+- **next/font**: Otimização automática de fontes.
+
+## Como executar
+
+Primeiro, inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `app/page.tsx`. A página será atualizada automaticamente conforme você salva as alterações.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Saiba mais
 
-## Learn More
+Consulte a [documentação do Next.js](https://nextjs.org/docs) para mais informações sobre recursos e APIs.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A maneira mais fácil de fazer o deploy do seu app Next.js é usando a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
